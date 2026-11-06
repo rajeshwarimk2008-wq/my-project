@@ -1,0 +1,64 @@
+
+body{
+    margin: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: cornsilk;
+}
+nav{
+ display: flex;
+ background-color:bisque;
+ color: crimson;
+ padding: 10px;
+ font-size: 20px;
+ gap: 20px;
+ position: sticky;
+ align-items: center;
+ justify-content:left;
+}
+nav a{
+    color: crimson;
+    text-decoration: none;
+    font-weight: 50;
+    justify-content: end;
+
+}
+nav a:hover{
+    color: black;
+}
+#hero{
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(195, 189, 168);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 300;
+
+}
+#hero img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+
+}
+#edu{
+    display: flex;
+    flex-direction:row;
+    margin: 10px;
+
+}
+#edu img{
+    width: auto;
+    height: 250px;
+    background-color: aliceblue;
+    padding: 10px;
+
+}
+#school{
+    background-color: darkgray;
+
+}
+#college{
+    background-color: darkgray;
+}
+#university{
+    background-color: darkgray;
+}
